@@ -1,0 +1,51 @@
+.navContainer{
+    max-width: 1300;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.navbar {
+    width: 100%;
+    height: 5.9rem;
+    background: var(--nav-background);
+    border-bottom: 1px solid var(--nav-border);
+}
+
+.navWrap{
+    width: 100%;
+    height: 5.9rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.userWrap{
+    height: auto;
+    width: 14.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.avatarText{
+    font-family: 'DM Sans', sans-serif;
+    color: var(--text-color-1);
+    font-size: 1.4rem;
+}
+
+.avatarArrow{
+    rotate: 90deg;
+}
+
+/* ------------------- Hamburger ------------------- */
+
+
+.hamLines span{
+    display: none;
+    width: 2.3rem;
+    height: .4rem;
+    background-color: var(--text-blue);
+    margin: .3rem auto;
+    border-radius: 2rem;
+}

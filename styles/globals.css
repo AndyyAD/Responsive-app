@@ -19,11 +19,10 @@ ul, li{
 
 a{
     text-decoration: none;
-    color: var(--black);
 }
 
 body{
-    background-color: var(--dark-main);
+    background-color: var(--background);
 }
 
 /* ---------------------------- VARIABLES ---------------------------- */
@@ -31,6 +30,7 @@ body{
 :root{
 	--background: #F4F5F7;
 	--nav-background: #FFFFFF;
+	--nav-border: #DADEE2;
 	--searchbox-border: #DFE1E6;
 	--progress-bar-green: #038B00;
 	--progress-bar-grey: #514A0F;
