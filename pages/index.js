@@ -14,6 +14,19 @@ export default function Home() {
 			</Head>
 			<main className={styles.main}>
 				<Navbar/>
+				<div className={styles.container}>
+					<h1 className={styles.mainText}> Welcome to Teleport! </h1>
+					<hr />
+					<div className={styles.searchbox}>
+						<input type="text" placeholder="Search by name, country"/>
+						<Image className={styles.searchIcon}
+							src="search.svg"
+							alt="Search icon"
+							height={24}
+							width={24}
+						/>
+					</div>
+				</div>
 			</main>
 		</>
 	)

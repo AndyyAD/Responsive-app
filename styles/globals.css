@@ -22,7 +22,13 @@ a{
 }
 
 body{
-    background-color: var(--background);
+	font-family: 'DM Sans', sans-serif;
+}
+
+hr{
+	height: 1px;
+	background-color: var(--horizontal-bar);
+	border: none;
 }
 
 /* ---------------------------- VARIABLES ---------------------------- */
@@ -31,6 +37,7 @@ body{
 	--background: #F4F5F7;
 	--nav-background: #FFFFFF;
 	--nav-border: #DADEE2;
+	--horizontal-bar: #D4D3D4;
 	--searchbox-border: #DFE1E6;
 	--progress-bar-green: #038B00;
 	--progress-bar-grey: #514A0F;
