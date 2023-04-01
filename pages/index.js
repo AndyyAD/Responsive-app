@@ -44,6 +44,15 @@ export default function Home() {
 						<Rejected />
 					</div>
 				</div>
+				<div className={styles.whatsapp}>
+					<Image className={styles.logo}
+						src="/whatsapp.svg"
+						alt="whatsapp logo"
+						height={30}
+						width={30}
+					/>
+					<h2 className={styles.wpText}> Ask for help </h2>
+				</div>
 			</main>
 		</>
 	)

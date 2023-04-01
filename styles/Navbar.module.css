@@ -42,7 +42,6 @@
 
 /* ------------------- Hamburger ------------------- */
 
-
 .hamLines span{
     display: none;
     width: 2.3rem;
@@ -50,4 +49,29 @@
     background-color: var(--text-blue);
     margin: .3rem auto;
     border-radius: 2rem;
+}
+
+/* ------------------- Responsive ------------------- */
+
+@media (max-width: 500px) {
+    .navWrap{
+        width: 100%;
+        height: 5.9rem;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: row;
+    }
+    
+    .userWrap{
+        display: none;
+    }
+
+    .hamLines span{
+        display: block;
+    }
+
+    .logo{
+        margin-left: 2rem;
+    }
 }

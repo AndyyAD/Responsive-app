@@ -38,6 +38,17 @@ hr{
 	margin: 0 auto;
 }
 
+.pgBar{
+	width: 6rem;
+	height: .2rem;
+	border-radius: 32px;
+	margin: 0 2rem;
+}
+
+.greenBar{
+	background-color: var(--progress-bar-green);
+}
+
 /* ---------------------------- VARIABLES ---------------------------- */
 
 :root{
@@ -48,6 +59,7 @@ hr{
 	--searchbox-border: #DFE1E6;
 	--progress-bar-green: #038B00;
 	--progress-bar-grey: #514A0F;
+	--yellow-border: #FCF3A4;
 
 	--text-color-1: #42526E;
 	--text-color-2: #7A869A;
@@ -67,5 +79,23 @@ hr{
 	--highlight-red: #FFEBE6;
 
 	--whatsapp-background: #254142;
-	--whatsapp-border: #254142;
+	--whatsapp-border: #335051;
+}
+
+/* ------------------- Responsive ------------------- */
+
+@media (max-width: 500px) {
+	html{
+		font-size: 56.2%;
+	}
+
+	.pgBar{
+		width: .2rem;
+		height: 2rem;
+		margin: 1rem 0;
+	}
+
+	.greenBar{
+		height: 22rem;
+	}
 }

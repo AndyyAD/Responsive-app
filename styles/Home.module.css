@@ -36,7 +36,6 @@
 }
 
 .subApplication{
-	background-color: var();
 	background-color: var(--nav-background);
 	width: 100%;
 	height: auto;
@@ -50,4 +49,52 @@
 	padding: 2rem 4rem;
 	font-weight: 400;
 	color: var(--text-color-3);
+}
+
+.whatsapp{
+	width: fit-content;
+	height: fit-content;
+	display: flex;
+	align-items: center;
+	background-color: var(--whatsapp-background);
+	border: 3px solid var(--whatsapp-border);
+	border-bottom: none;
+	margin-left: 13rem;
+	padding: 1rem 2rem;
+	border-radius: 16px 16px 0px 0px;
+}
+
+.wpText{
+	color: var(--nav-background);
+	margin-left: 1rem;
+}
+
+/* ------------------- Responsive ------------------- */
+
+@media (max-width: 500px) {	
+	.main{
+		position: relative;
+	}
+
+	.subText{
+		padding: 2rem 2rem;
+	}
+
+	.whatsapp{
+		width: fit-content;
+		height: fit-content;
+		display: block;
+		background-color: var(--whatsapp-background);
+		border: 3px solid var(--whatsapp-border);	
+		margin-left: 0rem;
+		padding: 1rem;
+		border-radius: 50%;
+		position: absolute;
+		bottom: -4.5%;
+		left: 7%;
+	}
+
+	.wpText{
+		display: none;
+	}
 }
