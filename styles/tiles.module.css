@@ -1,0 +1,11 @@
+.fcMain{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 5rem;
+}
+
+
+.countryName{
+    color: var(--text-color-1);
+    font-size: 1.4rem;
+}

@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
 import Navbar from '@/component/Navbar'
+import FormCompleted from './info-tiles/FormCompleted'
 
 export default function Home() {
 	return (
@@ -13,18 +14,26 @@ export default function Home() {
 				<link rel="icon" href="/favicon1.ico" />
 			</Head>
 			<main className={styles.main}>
-				<Navbar/>
+				<Navbar />
 				<div className={styles.container}>
 					<h1 className={styles.mainText}> Welcome to Teleport! </h1>
+
 					<hr />
+
 					<div className={styles.searchbox}>
-						<input type="text" placeholder="Search by name, country"/>
+						<input type="text" placeholder="Search by name, country" />
 						<Image className={styles.searchIcon}
 							src="search.svg"
 							alt="Search icon"
 							height={24}
 							width={24}
 						/>
+					</div>
+
+					<div className={styles.subApplication}>
+						<h1 className={styles.subText}> Submitted application (5) </h1>
+						<hr />
+						<FormCompleted />
 					</div>
 				</div>
 			</main>

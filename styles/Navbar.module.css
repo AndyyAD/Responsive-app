@@ -33,7 +33,10 @@
     font-size: 1.4rem;
 }
 
-.avatarArrow{
+.userWrap svg{
+    height: 2.5rem;
+    width: 3.1rem;
+    color: var(--text-color-1);
     rotate: 90deg;
 }
 
