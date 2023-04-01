@@ -1,11 +1,98 @@
 .fcMain{
     display: flex;
     justify-content: space-between;
-    padding: 3rem 5rem;
+    align-items: center;
+    padding: 2.5rem 5rem;
 }
-
 
 .countryName{
     color: var(--text-color-1);
-    font-size: 1.4rem;
+    font-size: 1.5rem;
+    margin-bottom: .6rem;
 }
+
+.countryTag, .subDate, .statusDate{
+    color: var(--text-color-4);
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.countryWrap{
+    display: flex;
+}
+
+.countryWrap div{
+    margin-left: 2rem;
+}
+
+.name{
+    margin-left: 1.6rem;
+    font-size: 1.4rem;
+    color: var(--text-color-3);
+    font-weight: 400;
+}
+
+.nameWrap div{
+    position: relative;
+    display: flex;
+    margin-bottom: .6rem;
+}
+
+.nehaprf{
+    position: absolute;
+    left: 1rem
+}
+
+.openBTN{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btn{
+    color: var(--text-blue);
+    font-weight: 500;
+    font-size: 1.4rem;
+    margin-right: .3rem;
+}
+
+.openBTN svg{
+    color: var(--text-blue);
+    rotate: -90deg;
+}
+
+.status{
+    display: inline-block;
+    font-size: 1.1rem;
+    margin-bottom: .6rem;
+    padding: .2rem .5rem;
+    border-radius: .3rem;
+}
+
+.fcStatus{
+    color: var(--text-color-2);
+    background-color: var(--searchbox-border);
+}
+
+.pStatus{
+    color: var(--text-yellow);
+    background-color: var(--highlight-yellow);
+}
+
+.aeStatus{
+    color: var(--text-purple);
+    background-color: var(--highlight-purple);
+}
+
+.aStatus{
+    color: var(--text-green);
+    background-color: var(--highlight-green);
+}
+
+.rStatus{
+    color: var(--text-red);
+    background-color: var(--highlight-red);
+}
+
+/* --------------------------- DROP DOWN --------------------------- */
+

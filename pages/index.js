@@ -3,6 +3,10 @@ import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
 import Navbar from '@/component/Navbar'
 import FormCompleted from './info-tiles/FormCompleted'
+import Processing from './info-tiles/Processing'
+import AtEmbassy from './info-tiles/AtEmbassy'
+import Approved from './info-tiles/Approved'
+import Rejected from './info-tiles/Rejected'
 
 export default function Home() {
 	return (
@@ -33,7 +37,11 @@ export default function Home() {
 					<div className={styles.subApplication}>
 						<h1 className={styles.subText}> Submitted application (5) </h1>
 						<hr />
-						<FormCompleted />
+						<FormCompleted /> <hr className="innerhr"/>
+						<Processing /> <hr className="innerhr"/>
+						<AtEmbassy /> <hr className="innerhr"/>
+						<Approved /> <hr className="innerhr"/>
+						<Rejected />
 					</div>
 				</div>
 			</main>

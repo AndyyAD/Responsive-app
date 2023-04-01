@@ -33,6 +33,11 @@ hr{
 	border: none;
 }
 
+.innerhr{
+	width: 93%;
+	margin: 0 auto;
+}
+
 /* ---------------------------- VARIABLES ---------------------------- */
 
 :root{

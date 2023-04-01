@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import tiles from '@/styles/tiles.module.css'
 
-const FormCompleted = () => {
+const AtEmbassy = () => {
     return (
         <>
             <section className={tiles.fcMain}>
@@ -37,7 +37,7 @@ const FormCompleted = () => {
                     <p className={tiles.subDate}> Submitted on 14 Dec </p>
                 </div>
                 <div className={tiles.statusWrap}>
-                    <h2 className={`${tiles.fcStatus} ${tiles.status}`}> FORM COMPLETED </h2>
+                    <h2 className={`${tiles.aeStatus} ${tiles.status}`}> AT EMBASSY/VFS </h2>
                     <p className={tiles.statusDate}> As on 14 Dec, 3:35 PM </p>
                 </div>
                 <div className={tiles.openBTN}>
@@ -51,4 +51,4 @@ const FormCompleted = () => {
     )
 }
 
-export default FormCompleted
+export default AtEmbassy
