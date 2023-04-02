@@ -55,3 +55,12 @@ Run project
 ```
 
 ## Screenshot
+
+Desktop
+
+![image](https://user-images.githubusercontent.com/80671044/229330678-22309682-f444-4f88-bc85-58b86e1de3ec.png)
+
+Mobile
+
+![image](https://user-images.githubusercontent.com/80671044/229330713-3f2077b4-ea1e-42e1-8c76-05aca8a78fb9.png)
+
