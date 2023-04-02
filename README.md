@@ -26,6 +26,9 @@ Note: It is not a fully functioning website. It is just a dummy static website u
 
 This app is deployed using vercel, click on the below link to see the page.
 
+https://responsive-app-ivory.vercel.app/
+
+
 ## ⚙️ Usage
 
 To run this app locally, Use the following commands.
