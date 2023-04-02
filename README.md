@@ -48,6 +48,8 @@ Install dependencies
     npm install --global yarn
 ```
 
+Run project
+
 ```bash
     yarn dev
 ```
