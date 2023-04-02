@@ -60,7 +60,8 @@
 
 .openBTN svg {
     color: var(--text-blue);
-    rotate: -90deg;
+    rotate: 90deg;
+    transition: all .5s ease;
 }
 
 .status {
@@ -356,6 +357,4 @@ div.icons div:nth-child(1) svg{
     .amitDetails div:nth-child(5) {
         display: none;
     }
-
-    
 }

@@ -82,6 +82,24 @@ hr{
 	--whatsapp-border: #335051;
 }
 
+/* ------------------- Animation ------------------- */
+
+.active{
+	display: block;
+}
+
+.inactive{
+	display: none;
+}
+
+.openBTN svg{
+	rotate: -90deg !important;
+}
+
+.closeBTN svg{
+	rotate: 90deg !important;
+}
+
 /* ------------------- Responsive ------------------- */
 
 @media (max-width: 500px) {
